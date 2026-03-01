@@ -2,25 +2,26 @@
 layout: default
 ---
 
+<style>
+  /* MOBILE OPTIMISATION */
+  @media screen and (max-width: 767px) {
+    .hero-section {
+      background-position: center top; /* keeps top of image more visible */
+      padding-top: 60px;
+    }
+  }
+</style>
+
 <!-- Header section-->
 <section 
   style="
     position: relative;
     min-height: 100vh;
-    min-width: 75vh;
     background: url('/assets/img/header.jpg') center center / cover no-repeat;
     overflow: hidden;
   "
   class="hero-section"
 >
-  <div
-    style="
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.55);
-    "
-  ></div>
-
   <div
     style="
       position: relative;
@@ -30,30 +31,7 @@ layout: default
     "
     class="hero-content"
   >
-    <h1 style="font-size: 3rem; font-weight: 700; margin-bottom: 10px;">
-      BeaugTech
-    </h1>
-    <p style="font-size: 1.2rem; font-weight: 300; opacity: 0.9;">
-      Your End User Computing (EUC) and modern workplace technologies expert
-    </p>
+    <h1>BeaugTech</h1>
+    <p>Your End User Computing (EUC) and modern workplace technologies expert</p>
   </div>
 </section>
-
-<style>
-  /* MOBILE OPTIMISATION */
-  @media screen and (max-width: 767px) {
-    .hero-section {
-      background-position: center top; /* keeps top of image more visible */
-      padding-top: 60px;
-    }
-    .hero-content {
-      padding: 60px 15px; /* reduce vertical padding on phones */
-    }
-    .hero-content h1 {
-      font-size: 2rem; /* scaled for small screens */
-    }
-    .hero-content p {
-      font-size: 1rem;
-    }
-  }
-</style>
