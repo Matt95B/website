@@ -68,7 +68,7 @@ layout: default
 
             <div class="col-lg-4 col-md-6">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-bullseye wow bounceIn text-primary"></i>
+                    <i class="fa fa-4x fa-bullseye text-primary"></i>
                     <h3>Define</h3>
                     <p class="text-muted">
                         Align on clear business outcomes, scope, and measurable success criteria before delivery begins.
@@ -78,7 +78,7 @@ layout: default
 
             <div class="col-lg-4 col-md-6">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-search wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <i class="fa fa-4x fa-search text-primary" data-wow-delay=".1s"></i>
                     <h3>Discover</h3>
                     <p class="text-muted">
                         Assess the current state across people, process, and technology to validate requirements and identify gaps.
@@ -88,7 +88,7 @@ layout: default
 
             <div class="col-lg-4 col-md-6">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-puzzle-piece wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <i class="fa fa-4x fa-puzzle-piece text-primary" data-wow-delay=".2s"></i>
                     <h3>Design</h3>
                     <p class="text-muted">
                         Architect a secure, scalable future-state solution aligned to business and operational needs.
@@ -98,7 +98,7 @@ layout: default
 
             <div class="col-lg-4 col-md-6">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-cog wow bounceIn text-primary"></i>
+                    <i class="fa fa-4x fa-cog text-primary"></i>
                     <h3>Develop</h3>
                     <p class="text-muted">
                         Build and configure the solution with best-practice standards, automation, and integration.
@@ -108,7 +108,7 @@ layout: default
 
             <div class="col-lg-4 col-md-6">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-rocket wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <i class="fa fa-4x fa-rocket text-primary" data-wow-delay=".1s"></i>
                     <h3>Deploy</h3>
                     <p class="text-muted">
                         Validate, pilot, and transition the solution into production with controlled rollout and governance.
@@ -118,7 +118,7 @@ layout: default
 
             <div class="col-lg-4 col-md-6">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-line-chart wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <i class="fa fa-4x fa-line-chart text-primary" data-wow-delay=".2s"></i>
                     <h3>Drive Value</h3>
                     <p class="text-muted">
                         Enable adoption, optimise operations, and ensure measurable business value is realised post-deployment.
@@ -128,4 +128,26 @@ layout: default
 
         </div>
     </div>
+</section>
+
+<!-- Tech carousel-->
+ <section id="tech-stack" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-heading">Technology expertise</h2>
+    <hr class="primary">
+    <div class="tech-carousel-wrapper">
+      <div class="tech-carousel">
+
+        {% assign logos = site.static_files | where_exp:"file","file.path contains '/assets/img/logos/'" %}
+        {% for file in logos %}
+          {% assign filename = file.name | split: '.' | first %}
+          <div class="tech-item">
+            <img src="{{ file.path | relative_url }}" alt="{{ filename | capitalize }}" class="img-fluid">
+            <p>{{ filename | replace:'-',' ' }}</p>
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
 </section>
