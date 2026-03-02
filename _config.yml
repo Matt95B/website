@@ -20,12 +20,12 @@ title: BeaugTech
 ###############################################
 
 navbar-links:
-  Home: "https://www2.beaugtech.com"
+  Home: "https://www.beaugtech.com"
   Services:
-    - Professional Services: "#pso"
+    - Professional Services: "https://www.beaugtech.com/#pso"
   Resources:
-    - Blog: "#blog"
-  Contact: "#contact"
+    - Blog: "https://www.beaugtech.com/#blog"
+  Contact: "https://www.beaugtech.com/#contact"
 
 ################
 # --- Logo --- #
