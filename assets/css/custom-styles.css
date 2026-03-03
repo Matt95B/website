@@ -89,6 +89,15 @@
     }
 }
 
+#portfolio .col-lg-4,
+#portfolio .col-sm-6 {
+  padding: 0;
+}
+
+#portfolio .row {
+  margin: 0;
+}
+
 .tech-carousel-wrapper {
   overflow: hidden;
   width: 100%;
