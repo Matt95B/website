@@ -37,7 +37,7 @@
         color: white;
         opacity: 0;
         display: block;
-        background: rgb(0, 0, 255);
+        background: rgb(0, 0, 255,.9);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -55,10 +55,10 @@
                 padding: 0 15px;
             }
             .project-category {
-                font-size: 18px;
+                font-size: 20px;
             }
             .project-name {
-                font-size: 12px;
+                font-size: 16px;
             }
         }
     }
