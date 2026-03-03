@@ -61,12 +61,11 @@
                 padding: 0 15px;
             }
             .project-category {
-                text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 18px;
             }
             .project-name {
-                font-size: 18px;
+                font-size: 14px;
             }
         }
     }
