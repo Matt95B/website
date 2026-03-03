@@ -4,13 +4,13 @@
   height: 700px; /* fixed height instead of vh */
   background: url('/assets/img/header.jpg') center center no-repeat;
   background-size: cover;
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
     .header {
       height: 420px;
       background-position: center top; /* keep image focus better */
     }
   }
-}
 
 .header-overlay {
   position: absolute;
@@ -84,7 +84,6 @@
   overflow: hidden;
   width: 100%;
   position: relative;
-  -webkit-overflow-scrolling: touch;
 }
 
 .tech-carousel {
