@@ -21,6 +21,7 @@ title: BeaugTech
 
 navbar-links:
   Home: "https://www.beaugtech.com"
+  Portfolio: "https://www.beaugtech.com/#portfolio"
   Services:
     - Professional Services: "https://www.beaugtech.com/#pso"
   Resources:
