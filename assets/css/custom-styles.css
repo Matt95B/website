@@ -89,13 +89,15 @@
     }
 }
 
-#portfolio .col-lg-4,
-#portfolio .col-sm-6 {
-  padding: 0;
+#portfolio .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
-#portfolio .row {
-  margin: 0;
+#portfolio .col-lg-4,
+#portfolio .col-sm-6 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .tech-carousel-wrapper {
