@@ -4,6 +4,12 @@
   height: 700px; /* fixed height instead of vh */
   background: url('/assets/img/header.jpg') center center no-repeat;
   background-size: cover;
+  @media (max-width: 768px) {
+    .header {
+      height: 420px;
+      background-position: center top; /* keep image focus better */
+    }
+  }
 }
 
 .header-overlay {
@@ -22,17 +28,6 @@
   width: 90%;
 }
 
-/* Mobile adjustment */
-@media (max-width: 768px) {
-  .header {
-    height: 420px;
-    background-position: center top; /* keep image focus better */
-  }
-  .header-content h1 {
-    font-size: 2rem;
-  }
-}
-
 .portfolio-box {
     position: relative;
     display: block;
@@ -42,7 +37,7 @@
         color: white;
         opacity: 0;
         display: block;
-        background: rgba(0,0,0,0.55);
+        background: hex(#0000ff);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -61,11 +56,10 @@
                 padding: 0 15px;
             }
             .project-category {
-                font-weight: 600;
                 font-size: 18px;
             }
             .project-name {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }
