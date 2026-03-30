@@ -15,7 +15,7 @@
 .header-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0, 0, 255,0.55);
 }
 
 .header-content {
