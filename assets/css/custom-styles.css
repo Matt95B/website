@@ -15,7 +15,7 @@
 .header-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 255,0.55);
+  background: rgba(0, 0, 255, 0.75);
 }
 
 .header-content {
@@ -32,7 +32,7 @@
     position: relative;
     display: block;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 5px auto;
     border-radius: 15px;       /* rounded corners */
     overflow: hidden;          /* clip overlay to rounded corners */
 }
