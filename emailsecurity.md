@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # Email Security Solutions
 
