@@ -26,7 +26,7 @@ navbar-links:
     - Professional Services: "https://www.beaugtech.com/#pso"
   Resources:
     - Blog: "https://www.beaugtech.com/#blog"
-  Contact: "https://www.beaugtech.com/#contact"
+#  Contact: "https://www.beaugtech.com/#contact"
 
 ################
 # --- Logo --- #
