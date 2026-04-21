@@ -24,6 +24,7 @@ navbar-links:
   Portfolio: "https://www.beaugtech.com/#portfolio"
   Services:
     - Professional Services: "https://www.beaugtech.com/#pso"
+    - Email Security: "https://www.beaugtech.com/emailsecurity"
   Resources:
     - Blog: "https://www.beaugtech.com/#blog"
 #  Contact: "https://www.beaugtech.com/#contact"
