@@ -20,14 +20,14 @@ title: BeaugTech
 ###############################################
 
 navbar-links:
-  Home: "https://beaugtech.com"
-  Portfolio: "https://beaugtech.com/#portfolio"
+  Home: "https://www.beaugtech.com"
+  Portfolio: "https://www.beaugtech.com/#portfolio"
   Services:
-    - Professional Services: "https://beaugtech.com/#pso"
-    - Email Security: "https://beaugtech.com/emailsecurity"
+    - Professional Services: "https://www.beaugtech.com/#pso"
+    - Email Security: "https://www.beaugtech.com/emailsecurity"
   Resources:
-    - Blog: "https://beaugtech.com/#blog"
-#  Contact: "https://beaugtech.com/#contact"
+    - Blog: "https://www.beaugtech.com/#blog"
+#  Contact: "https://www.beaugtech.com/#contact"
 
 ################
 # --- Logo --- #
