@@ -10,6 +10,9 @@
       height: 420px;
       background-position: center top; /* keep image focus better */
     }
+    .header-content {
+      padding-bottom: 0.5rem;
+    }
   }
 
 .header-content {
