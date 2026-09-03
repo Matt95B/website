@@ -21,7 +21,7 @@
       background-position: center top; /* keep image focus better */
     }
     .header-content {
-      padding-bottom: 1rem;
+      padding-bottom: 0.2rem;
       font-size: 0.9rem;
     }
   }
