@@ -5,15 +5,6 @@
   background: url('/assets/img/header.jpg') center center no-repeat;
   background-size: cover;
 }
-@media (max-width: 768px) {
-    .header {
-      height: 420px;
-      background-position: center top; /* keep image focus better */
-    }
-    .header-content {
-      padding-bottom: 0.5rem;
-    }
-  }
 
 .header-content {
   position: absolute;
@@ -23,6 +14,17 @@
   width: 100%;
   padding-bottom: 2rem;
 }
+
+@media (max-width: 768px) {
+    .header {
+      height: 420px;
+      background-position: center top; /* keep image focus better */
+    }
+    .header-content {
+      padding-bottom: 1rem;
+      font-size: 0.9rem;
+    }
+  }
 
 .portfolio-box {
     position: relative;
